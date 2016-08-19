@@ -1,3 +1,41 @@
 body {
-  text-align:center;
+  /*background-color: #f2f2f2;*/
+}
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+h4{
+  padding-top: 10px;
+  color:papayawhip;
+  font-size: 18px;
+  font-weight: normal;
+}
+h5 {
+  font-weight: bold;
+}
+.container {
+  margin-top: 4rem;
+  background-color: #e6e6e6;
+  border: 3.5px solid #000;
+}
+.white {
+  color: #fff;
+  font-size: 15px;
+}
+.header {
+  text-align: center;
+  background-color: papayawhip;
+  padding: 5rem;
+}
+.col-sm-3 {
+  background-color: #8fbc8f;
+  height: 800px;
+  margin-top: 40px;
+}
+.col-sm-9 {
+  padding: 3rem;
+  padding-left: 4rem;
+  background-color: #e6e6e6;
+  height: 500px;
 }
