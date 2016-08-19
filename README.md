@@ -6,9 +6,9 @@
 
 ## Description
 
-This simple game returns a list of numbers up to the user input number, aside from those that are divisible by 3, 5, or 15.
+This simple game returns a list of numbers up to the user input number, aside from those that are divisible by 3, 5, or 15. Play Ping Pong here: https://aimenkhakwani.github.io/ping-pong/
 
-<img src="specs.png" alt="specs for te ping pong game">
+<img src="specs.png" alt="specs for the ping pong game">
 
 
 ## Setup/Installation Requirements

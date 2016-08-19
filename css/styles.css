@@ -28,14 +28,21 @@ h5 {
   background-color: papayawhip;
   padding: 5rem;
 }
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
 .col-sm-3 {
   background-color: #8fbc8f;
-  height: 900px;
   margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 800px;
 }
 .col-sm-9 {
   padding: 3rem;
   padding-left: 4rem;
   background-color: #e6e6e6;
-  height: 500px;
+  display: flex;
+  flex-direction: column;
 }
