@@ -1,8 +1,8 @@
 # Ping Pong Game
 
-#### A game that returns Ping" or "pong" depending on user input.
+#### A game that returns "ping" or "pong" depending on user input.
 
-#### By _**{Aimen Khakwani}**_
+#### By _**Aimen Khakwani**_
 
 ## Description
 
@@ -21,10 +21,10 @@ Please contact me through GitHub
 
 ## Technologies Used
 
-_**{HTML, CSS, Bootstrap, JavaScript, jQuery}**_
+_**HTML, CSS, Bootstrap, JavaScript, jQuery**_
 
 ### License
 
-*{MIT}*
+*MIT*
 
-Copyright (c) 2016 **_{Aimen Khakwani}_**
+Copyright (c) 2016 **_Aimen Khakwani_**
