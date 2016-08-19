@@ -14,12 +14,18 @@ function pingPong(userInput){
   // debugger;
   $("#output").empty();
   for (var i = 1; userInput >= i; i++){
-    if (i === 3){
-      $("#output").append("ping");
+    if (i % 15 === 0){
+      $("#output").append("<li>" + "ping-pong!" + "</li>");
+    }
+    else if (i % 3 === 0){
+      $("#output").append("<li>" + "ping" + "</li>");
+    }
+    else if (i % 5 === 0){
+      $("#output").append("<li>" + "pong" + "</li>");
     }
     else {
     $("#output").append("<li>" + i + "</li>");
-    console.log(i);
+    // console.log(i);
     }
   }
   return (i);
