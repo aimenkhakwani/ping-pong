@@ -3,7 +3,7 @@ $(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
     var userInput = parseInt($("input").val());
-    $("#output").append(pingPong(userInput));
+    $("#output").text(pingPong(userInput));
   });
 });
 // business logic
