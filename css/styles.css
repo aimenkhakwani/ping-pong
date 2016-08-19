@@ -43,3 +43,17 @@ h5 {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 700px) {
+  .col-sm-3 {
+    margin-top: 0;
+    background-color: #8fbc8f;
+    width: 100%;
+    text-align: center;
+    min-height: inherit;
+  }
+  .col-sm-9 {
+    padding: 3rem;
+    background-color: #e6e6e6;
+  }
+
+}
