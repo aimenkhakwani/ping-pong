@@ -2,14 +2,14 @@
 $(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
-    var userInput = $("input").val();
-    pingPong(userInput);
+    var userInput = parseInt($("input").val());
+    $("#output").append(pingPong(userInput));
   });
 });
 // business logic
 function pingPong(userInput){
   $("#output").empty();
-  if (userInput === "0"){
+  if (userInput === 0){
     $("#output").append("No zeroes please!");
   }
   else {
@@ -25,9 +25,7 @@ function pingPong(userInput){
       }
       else {
       $("#output").append("<li>" + i + "</li>");
-      // console.log(i);
       }
     }
   }
-  return (i);
 }
