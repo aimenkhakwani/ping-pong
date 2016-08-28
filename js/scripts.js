@@ -1,11 +1,9 @@
 // business logic
 function validate(userInput){
   if(userInput < 1){
-    return("No zeroes please!");
+    alert("No zeroes please!");
   }
-  else {
-     return pingPong(userInput);
-  }
+  return;
 }
 function pingPong(userInput){
   var result = [];
@@ -31,8 +29,8 @@ $(document).ready(function(){
     event.preventDefault();
     $("#output").empty();
     var userInput = parseInt($("input").val());
-    var output = validate(userInput);
-
+    var output = pingPong(userInput);
+    validate(userInput);
     output.forEach(function(item){
     $("#output").append("<li>" + item + "</li>");
     });
